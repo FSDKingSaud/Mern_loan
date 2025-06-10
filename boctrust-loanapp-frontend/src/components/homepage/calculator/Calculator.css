@@ -1,0 +1,50 @@
+.Calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #145088;
+    color: #fff;
+    padding: 68px;
+}
+
+.Calculator h3 {
+    font-size: 1.2ren;
+    font-weight: 400;
+    padding-bottom: 18px;
+    text-align: center;
+}
+
+.Slider {
+    padding: 12px 22px;
+    margin: 16px;
+    border-radius: 6px;
+    background-color: #fff;
+    width: 80vw;
+}
+
+.Label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -18px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: gray;
+}
+
+.Result {
+    background-color: #ecaa00;
+    padding: 8px 28px;
+    margin: 28px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.Result h4 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: -6px;
+}

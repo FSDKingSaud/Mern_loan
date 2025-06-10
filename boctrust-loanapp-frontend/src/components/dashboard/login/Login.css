@@ -1,0 +1,91 @@
+.LogContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+  margin: 0 auto;
+  width: 30%;
+}
+
+.LogContainer > div {
+  width: 100%;
+}
+.LogContainer > div > h3 {
+  margin-bottom: 8px;
+}
+
+.LoginBtn {
+  margin: 1rem 0;
+  width: 100%;
+  height: 3rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #145098;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  gap: 0.4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.LogContainer .Input {
+  margin-bottom: 2rem;
+}
+
+.LogContainer .form-control {
+  height: 50px !important;
+}
+
+.Forget {
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  color: #145098;
+  cursor: pointer;
+}
+
+.asBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -2.5rem;
+}
+
+.asText {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #145098;
+}
+
+.radio {
+  margin-right: 0.8rem;
+}
+
+.password-group {
+  position: relative;
+}
+
+.password-group .reveal-btn {
+  background-color: transparent !important;
+  border: none;
+  position: absolute;
+  color: #145098;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding-right: 0.8rem;
+}
+
+@media screen and (max-width: 995px) {
+  .LogContainer {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .LogContainer {
+    width: 90%;
+  }
+}

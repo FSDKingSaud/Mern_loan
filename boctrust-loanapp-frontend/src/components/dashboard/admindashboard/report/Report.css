@@ -1,0 +1,18 @@
+.ReportCon {
+    margin-right: 4rem;
+}
+.InputElem {
+    border: 1px solid lightgray !important;
+}
+
+.FormatBtn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2rem;
+}
+
+.FormatBtn p {
+    margin-right: 1rem;
+    font-weight: 800;
+}

@@ -1,0 +1,173 @@
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.inputBox {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+.inputCard {
+    width: 85%;
+    padding: 0.8rem;
+    margin-left: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.homeCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.heading {
+    font-size: 1.3rem !important;
+    font-weight: 800 !important;                
+    margin-top: 1rem;
+    color: #333;
+}
+
+.divider {
+    width: 100%;
+    height: 4px;
+    background-color: #ccc;
+    margin-top: 2.5rem;
+}
+
+.submitBtn {
+    padding: 0.5rem 1rem;
+    background-color: #eeaa00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+/* front page styles */
+.section {
+    width: 90%;
+}
+.product-section {
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 16px;
+  color: #333;
+}
+
+.image {
+  width: 60%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 18px 5px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.button-danger {
+  background-color: #dc3545;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input, .textarea {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.textarea {
+  min-height: 80px;
+}
+
+.list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.notification {
+  padding-top: 20px;
+  border-radius: 5px;
+  color: #eeaa00;
+  font-weight: 700;
+
+}
+
+
+/* products pages side menu */
+.container {
+  display: flex;
+}
+
+.side-menu {
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-right: 1px solid #ccc;
+}
+
+.side-menu h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-item {
+  padding: 10px;
+  cursor: pointer;
+  color: #555;
+  transition: background-color 0.3s ease;
+}
+
+.product-item:hover,
+.product-item.active {
+  background-color: #ddd;
+  font-weight: bold;
+  color: #000;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}

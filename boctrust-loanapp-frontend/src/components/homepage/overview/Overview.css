@@ -1,0 +1,56 @@
+.VisionLeft {
+  padding: 0 2rem;
+}
+
+.VisionLeft h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+.VisionRight {
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.TopImg {
+  width: 88%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.CardImg {
+  width: 150px;
+  height: auto;
+  margin: 0.2rem;
+}
+
+.AccordionContent {
+  display: flex;
+  gap: 2rem;
+}
+
+.AccordionContent .AccordionContentImg{
+ min-width: 5rem;
+ height: 5rem;
+ border: 1px solid hsl(215, 50%, 91%);
+ border-radius: 0.75rem;
+ padding: 5px;
+
+}
+.AccordionContent  .AccordionContentImg  img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ object-position: top;
+}
+
+.AccordionContent p {
+   margin: .5rem 0;
+  }
+  

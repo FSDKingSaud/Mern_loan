@@ -1,0 +1,260 @@
+.TransContainer {
+  background-color: #e7e7e7;
+  padding: 0.2rem 1rem 3rem 1rem;
+  margin-top: 2rem;
+  border-radius: 18px;
+}
+.FieldGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 1rem;
+  width: 100%;
+}
+.FieldGroup .Input {
+  width: 100%;
+}
+
+.Notification {
+  font-size: 1rem;
+  text-align: center;
+  color: #145098;
+  margin-top: 2rem;
+}
+
+.FieldRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.autoFill {
+  background: #f8f8f8;
+  border: 1px solid #145098;
+  border-radius: 1rem;
+  padding: 1rem ;
+}
+.apply__forLoan .FieldRow.autoFill {
+  padding: 1rem !important;
+}
+
+.SingleRow {
+  margin-left: 1.4rem;
+}
+
+.Select,
+.Input {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  box-shadow: none;
+  color: #495057;
+  display: block;
+  font-size: 1.3rem;
+  height: calc(1.5em + 0.75rem + 2px);
+  line-height: 2.5;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 100%;
+}
+
+.BtnContainer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.CreditSearch {
+  height: 2.5rem;
+  width: 90%;
+  padding: 18px;
+}
+
+.SearchIcon {
+  position: relative;
+  right: 2rem;
+  bottom: 0.2rem;
+}
+
+/* .MandateLabel {
+  margin: -3rem 1rem 0 1rem;
+} */
+
+.Gap {
+  margin-right: 1rem;
+}
+
+.Content {
+  height: 300px;
+}
+
+.Error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: -1.7rem;
+}
+
+.ResultContainer {
+  margin-left: 2rem;
+  font-size: 1rem;
+}
+
+.ResultContainer p > span {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  color: #145098;
+}
+
+/* .loan_calculator .FormRow{
+  
+} */
+
+.add__employerContainer .appForm,
+.add__mandateRule .appForm,
+.employer__letterContainer .appForm,
+.apply__forLoan .appForm {
+  display: grid;
+  gap: 2rem;
+}
+
+.add__employerContainer select {
+  border-radius: 0.25rem !important;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  box-shadow: none;
+  color: #495057;
+  display: block;
+  font-size: 1.3rem;
+  height: calc(1.5em + 0.75rem + 2px);
+  line-height: 2.5;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.add__employerContainer label,
+.add__mandateRule label,
+.employer__letterContainer label,
+.apply__forLoan label {
+  padding-bottom: 8px;
+  font-size: 18px;
+  color: #475569;
+  font-weight: 600;
+}
+
+.add__mandateRule label,
+.add__mandateRule input,
+.add__mandateRule select,
+.employer__letterContainer label,
+.employer__letterContainer input,
+.employer__letterContainer select,
+.add__employerContainer label,
+.add__employerContainer input,
+.add__employerContainer select,
+.apply__forLoan label,
+.apply__forLoan input,
+.apply__forLoan select {
+  margin: 0 !important;
+}
+
+.add__mandateRule form {
+  margin-top: 2rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.add__mandateRule form .Input {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 0 1rem;
+}
+.add__mandateRule form .Input .MandateLabel {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.employer__letterContainer .employer__letterForm {
+  display: grid;
+  gap: 2rem;
+}
+
+.employer__letterContainer .MandateLabel,
+.add__statementContainer .MandateLabel {
+  font-size: 0.9rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 0.5rem;
+  color: #f59e0b;
+}
+
+.employer__letterContainer .FieldGroup .errorMsg {
+  color: rgb(132, 20, 20);
+  font-size: 0.8rem;
+}
+
+.selected__employer {
+  width: 50%;
+  height: 300px;
+  overflow-y: auto;
+  background: #3b4a59;
+  color: white;
+  margin-inline: auto;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.selected__employer > div {
+  padding: 0.3rem;
+  border: 3px solid white;
+
+  width: fit-content;
+  height: fit-content;
+  max-height: 50px;
+}
+
+.remove__employer {
+  border-radius: 50% in !important;
+  padding: 0.3rem !important;
+  display: grid;
+  place-content: center;
+}
+
+.FieldRow.rule__title input {
+  max-width: 100% !important;
+}
+
+.no__maxTenure {
+  margin-bottom: 0 !important;
+}
+
+.no__maxTenure > div {
+  display: flex;
+  gap: 0.5rem;
+  padding-inline: 0.5rem;
+  align-items: center;
+}
+.no__maxTenure > label {
+  margin-top: 0 !important;
+}
+
+.MinLoanAmountContainer {
+  margin: 3rem 1rem 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.MinLoanAmountContainer .FieldGroup {
+  width: 100%;
+}
+
+.input__containerWrapper {
+  border: 1px dashed black;
+  padding: 1rem;
+}
+.input__containerWrapper h4 {
+  margin-bottom: 1rem;
+}

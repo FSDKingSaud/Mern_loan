@@ -1,0 +1,85 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "jobtitle": "Loan Officer",
+      "description": "Responsible for evaluating loan applications, conducting credit assessments, and managing loan portfolios.",
+      "deadline": "2023-06-30",
+      "dateposted": "2023-06-01",
+      "isclosed": false,
+      "image": "/images/job2.jpg"
+    },
+    {
+      "id": 2,
+      "jobtitle": "Branch Manager",
+      "description": "Oversee the operations of the branch, manage staff, ensure compliance with regulations, and achieve branch targets.",
+      "deadline": "2023-07-15",
+      "dateposted": "2023-06-02",
+      "isclosed": false,
+      "image": "/images/job3.jpg"
+    },
+    {
+      "id": 3,
+      "jobtitle": "Accountant",
+      "description": "Responsible for financial reporting, bookkeeping, and maintaining accurate records of financial transactions.",
+      "deadline": "2023-06-30",
+      "dateposted": "2023-06-05",
+      "isclosed": false,
+      "image": "/images/job2.jpg"
+    },
+    {
+      "id": 4,
+      "jobtitle": "Credit Analyst",
+      "description": "Analyze creditworthiness of loan applicants, review financial statements, and assess risks associated with lending.",
+      "deadline": "2023-07-10",
+      "dateposted": "2023-06-08",
+      "isclosed": false,
+      "image": "/images/job3.jpg"
+    },
+    {
+      "id": 5,
+      "jobtitle": "Customer Service Representative",
+      "description": "Handle customer inquiries, provide assistance, resolve issues, and promote excellent customer service.",
+      "deadline": "2023-06-25",
+      "dateposted": "2023-06-10",
+      "isclosed": false,
+      "image": "https://shorturl.at/fqESX"
+    },
+    {
+      "id": 6,
+      "jobtitle": "Risk Manager",
+      "description": "Develop and implement risk management policies, identify potential risks, and ensure compliance with regulations.",
+      "deadline": "2023-07-05",
+      "dateposted": "2023-06-12",
+      "isclosed": false,
+      "image": "/images/job2.jpg"
+    },
+    {
+      "id": 7,
+      "jobtitle": "Internal Auditor",
+      "description": "Conduct internal audits, assess financial controls, identify areas for improvement, and ensure compliance with policies.",
+      "deadline": "2023-07-15",
+      "dateposted": "2023-06-15",
+      "isclosed": false,
+      "image": "/images/job1.jpg"
+    },
+    {
+      "id": 8,
+      "jobtitle": "IT Support Specialist",
+      "description": "Provide technical support, troubleshoot hardware and software issues, and maintain IT infrastructure.",
+      "deadline": "2023-07-10",
+      "dateposted": "2023-06-18",
+      "isclosed": false,
+      "image": "/images/job3.jpg"
+    },
+    {
+      "id": 9,
+      "jobtitle": "Marketing Officer",
+      "description": "Develop and implement marketing strategies, conduct market research, and promote the bank's products and services.",
+      "deadline": "2023-07-05",
+      "dateposted": "2023-06-20",
+      "isclosed": false,
+      "image": "/images/job2.jpg"
+    }
+  ]
+}

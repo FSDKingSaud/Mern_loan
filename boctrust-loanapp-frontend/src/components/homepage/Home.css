@@ -1,0 +1,5 @@
+.CardContainer {
+    display: flex;
+    justify-content: center;
+    padding-left: 34px;
+}

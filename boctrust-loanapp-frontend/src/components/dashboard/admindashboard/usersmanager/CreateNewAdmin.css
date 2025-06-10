@@ -1,0 +1,99 @@
+.edit__user .FieldGroup {
+  margin: 0 !important;
+}
+
+.CheckboxContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.CheckboxGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: -4rem;
+}
+
+.CheckboxGroup label {
+  margin-bottom: 1.8rem;
+}
+
+.checkboxLabel {
+  margin-left: 12px;
+}
+
+.manage__accessControl {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.manage__accessControl label,
+.modal__container label {
+  margin-top: 0 !important;
+}
+
+.manage__accessControl input {
+  margin: 0 !important;
+  padding: 8px;
+}
+.manage__accessControl .form-check {
+  margin-bottom: 1rem;
+}
+.manage__accessControl input.form-check-input {
+  width: 20px !important;
+}
+
+.manage__accessControl .permission__control {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.manage__accessControl .permission__control h5 {
+  padding: 1rem 0;
+  border-bottom: 1px solid gray;
+}
+
+.manage__accessControl select,
+.manage__accessControl option {
+  z-index: 100;
+}
+
+select:disabled {
+  opacity: 0.5;
+}
+.TransContainer .FormCon form {
+  display: grid;
+  gap: 2rem;
+}
+
+.TransContainer .FormCon .FieldRow {
+  padding: 0 !important;
+  margin-bottom: 0 !important;
+  display: flex;
+  gap: 2rem;
+}
+
+.TransContainer .FormCon .FieldRow label {
+  margin-top: 0 !important;
+}
+
+.TransContainer .FormCon .IUpload {
+  padding: 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .TransContainer .FormCon .FieldRow {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .TransContainer .DashHeader {
+    margin: 2rem 0 1rem 0 !important;
+    font-size: 1.6rem !important;
+  }
+}

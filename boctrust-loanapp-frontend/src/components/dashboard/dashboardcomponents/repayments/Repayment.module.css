@@ -1,0 +1,18 @@
+.grid__wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.grid__wrap > div {
+  display: flex;
+  gap: 1rem;
+}
+.grid__wrap > div p {
+  color: gray;
+  font-weight: 400;
+}
+.grid__wrap > div span {
+  color: #145088;
+  font-weight: 700;
+}

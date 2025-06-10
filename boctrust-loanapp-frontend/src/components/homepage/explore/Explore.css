@@ -1,0 +1,31 @@
+.ExploreContainer {
+    margin-top: 68px;
+    background-color: #145088;
+    color: #fff;
+    text-align: center;
+    padding: 68px 8%;
+}
+
+.Explore h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.Explore p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.ExCard {
+   text-align: left;
+   margin-top: 40px;
+}
+
+.ExCard h5 {
+    font-size: 1.rem;
+    font-weight: 400;
+    margin: 12px 0;
+}
+

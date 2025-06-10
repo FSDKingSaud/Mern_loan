@@ -1,0 +1,118 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "category": "deposit",
+      "question": "Can I use my savings as collateral for a loan",
+      "answer": "Yes you can use your savings as collateral for a loan."
+    },
+    {
+      "id": 2,
+      "category": "deposit",
+      "question": "Can I withdraw all my money and still keep the account (Do you have any minimum balance)",
+      "answer": "Yes , but we appreciate that customers maintain at least the minimum balance of the account"
+    },
+    {
+      "id": 3,
+      "category": "deposit",
+      "question": "What happens in the event that I want a premature termination of my investment",
+      "answer": "If your investment has remained with Boctrust Microfinance Bank. for at least half of the agreed tenor of the investment, then you will enjoy interest commensurate with your period of investment, thus your returns will be calculated based on the number of days your money has been with us"
+    },
+    {
+      "id": 5,
+      "category": "deposit",
+      "question": "Do I incur any charges on operating a savings account",
+      "answer": "There are no charges on the operation of any account with Boctrust Microfinance Bank"
+    },
+    {
+      "id": 6,
+      "category": "deposit",
+      "question": "Can I negotiate for a higher interest rates on the fixed deposits",
+      "answer": "All interest rates are negotiable depending on the amount the client is willing to invest"
+    },
+    {
+      "id": 7,
+      "category": "deposit",
+      "question": "What interest will I get on my savings",
+      "answer": "The higher your deposit balances (savings), the higher the interest you earn. This is to encourage clients to develop who have a good habit of growing their deposit balances"
+    },
+    {
+      "id": 8,
+      "category": "deposit",
+      "question": "What is the rate of interest you pay on savings",
+      "answer": "You can earn up to 12.68%p.a on your savings by saving with Boctrust Microfinance Bank. Interests on deposits are calculated daily and applied at the end of the month"
+    },
+    {
+      "id": 9,
+      "category": "loans",
+      "question": "Can I repay off the entire loan before maturity date? If yes then how do I stand to benefit from this arrangement",
+      "answer": "Premature termination is allowed. It will entitle you to a rebate of 50% on any outstanding interest more than a month in future"
+    },
+    {
+      "id": 10,
+      "category": "loans",
+      "question": "Can I use my savings as collateral for a loan",
+      "answer": "Yes, you may"
+    },
+    {
+      "id": 11,
+      "category": "loans",
+      "question": "Do I need to save with you before I can be able to access a loan",
+      "answer": "No. You can apply once you meet the requirements"
+    },
+    {
+      "id": 12,
+      "category": "loans",
+      "question": "What do you accept as collateral",
+      "answer": "Any valuable asset ranging from household items to landed property"
+    },
+    {
+      "id": 13,
+      "category": "loans",
+      "question": "How long will it take me to get the loan after application",
+      "answer": "We strive to process and complete work on all applications within a maximum of two days. However, application forms which are not properly filled or accompanied with incomplete supporting documentation may delay loan application processing and approval"
+    },
+    {
+      "id": 14,
+      "category": "loans",
+      "question": "Can I access a loan without a guarantor",
+      "answer": "Yes. But the applicant would be required to offer some form of security for the loan"
+    },
+    {
+      "id": 15,
+      "category": "loans",
+      "question": "Can I get a loan without collateral",
+      "answer": "Collateral is not the prime consideration for granting loans but we may require some kind of collateral depending on the loan amount and our relationship with the loan applicant"
+    },
+    {
+      "id": 16,
+      "category": "loans",
+      "question": "What is the term for the loans",
+      "answer": "Short-term loans have maturity between 1 to 3 months whilst long term loans have maturity between 6 to 18 months"
+    },
+    {
+      "id": 17,
+      "category": "loans",
+      "question": "What is the maximum amount you give to clients for the loans",
+      "answer": "No maximum amount but first time applicants may be limited to N200,000 for individuals and N1,000,000 for SME and self-employed"
+    },
+    {
+      "id": 18,
+      "category": "general",
+      "question": "Do you operate on weekends",
+      "answer": "We are open on Saturdays from 9:00am to 1pm"
+    },
+    {
+      "id": 19,
+      "category": "general",
+      "question": "What is the maximum amount you give to clients for the loans",
+      "answer": "No maximum amount but first time applicants may be limited to N200,000 for individuals and N1,000,000 for SME and self-employed"
+    },
+    {
+      "id": 20,
+      "category": "general",
+      "question": "Do I need to save with you before I can be able to access a loan",
+      "answer": "No. You can apply once you meet the requirements"
+    }
+  ]
+}

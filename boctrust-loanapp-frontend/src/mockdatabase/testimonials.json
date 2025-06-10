@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "name": "John Smith",
+    "image": "https://shorturl.at/djlM7",
+    "text": "I had a fantastic experience with the microfinance bank. They provided me with a loan at a low interest rate and excellent customer service. I highly recommend their services!",
+    "career": "Entrepreneur"
+  },
+  {
+    "id": 2,
+    "name": "Cynthia Osamwuyi",
+    "image": "https://shorturl.at/ehGJQ",
+    "text": "The microfinance bank helped me start my small business by providing me with the necessary capital. Their friendly staff guided me throughout the loan process. I'm grateful for their support!",
+    "career": "Small Business Owner"
+  },
+  {
+    "id": 3,
+    "name": "James Elukanlo",
+    "image": "https://shorturl.at/amsGU",
+    "text": "I've been a customer of the microfinance bank for several years now. They have always been reliable and trustworthy. Their competitive interest rates and flexible repayment options make them the best choice!",
+    "career": "Professional"
+  },
+  {
+    "id": 4,
+    "name": "Sarah Thompson",
+    "image": "/images/sarah.jpg",
+    "text": "The microfinance bank understood my financial needs and provided me with a tailored loan solution. They genuinely care about their customers and strive to make a positive impact in the community.",
+    "career": "Freelancer"
+  },
+  {
+    "id": 5,
+    "name": "Michael Wilson",
+    "text": "I was impressed by the microfinance bank's quick loan approval process. They saved me from a financial crisis and enabled me to achieve my goals. I highly recommend their efficient services!",
+    "career": "Student"
+  },
+  {
+    "id": 6,
+    "name": "Emeka Nwankwo",
+    "image": "/images/avater.jpg",
+    "text": "The microfinance bank's loan officers are knowledgeable and professional. They guided me through every step and made the application process seamless. I'm grateful for their assistance!",
+    "career": "Business Professional"
+  },
+  {
+    "id": 7,
+    "name": "Daniel Martinez",
+    "text": "As a small business owner, I needed financial support to expand my operations. The microfinance bank understood my vision and provided me with a loan that helped me achieve significant growth.",
+    "career": "Small Business Owner"
+  },
+  {
+    "id": 8,
+    "name": "Yusuf Ibrahim",
+    "image": "/images/ibrahim.jpg",
+    "text": "I've been a loyal customer of the microfinance bank for many years. Their personalized approach, competitive interest rates, and hassle-free loan process have always exceeded my expectations.",
+    "career": "Professional"
+  },
+  {
+    "id": 9,
+    "name": "Ethan Johnson",
+    "image": "/images/avater.jpg",
+    "text": "The microfinance bank played a crucial role in my education. They provided me with an educational loan that helped me pursue my dream degree. I'm thankful for their support and belief in me.",
+    "career": "Student"
+  },
+  {
+    "id": 10,
+    "name": "Aisha Mohammed",
+    "image": "/images/avater.jpg",
+    "text": "The microfinance bank empowered me to become a homeowner. With their affordable housing loan and guidance, I was able to purchase my dream home. They truly made a difference in my life.",
+    "career": "Homeowner"
+  }
+]

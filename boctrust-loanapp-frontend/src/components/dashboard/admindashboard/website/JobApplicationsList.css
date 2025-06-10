@@ -1,0 +1,21 @@
+.ListSec {
+  padding: 20px;
+}
+
+.table-responsive {
+  margin-top: 20px;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+.jobBtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobBtn button {
+    margin: 0 10px;
+    height: 40px;
+}

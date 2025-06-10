@@ -1,0 +1,45 @@
+.notificationWrapper {
+  margin: 20px 20px 20px 0;
+}
+
+.notificationWrapper > div > h2 {
+  font-size: 20px;
+}
+
+.notificationWrapper > div:first-of-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+.notificationItemWrapper {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.notificationItemWrapper .notificationIcon {
+  min-width: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow-y: hidden;
+  background: #145088;
+  color: white;
+  display: grid;
+  place-content: center;
+}
+
+.notificationItemWrapper .notificationItemInside {
+  display: grid;
+  font-size: 1.1rem;
+}
+.notificationItemWrapper .notificationItemInside p {
+  color: black;
+}
+.notificationItemWrapper .notificationItemInside span {
+  color: gray;
+  font-size: 0.98rem;
+}

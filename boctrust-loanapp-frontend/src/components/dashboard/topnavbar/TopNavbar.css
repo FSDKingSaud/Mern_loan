@@ -1,0 +1,137 @@
+.Inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-right: 1rem;
+}
+
+#Title {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 900 !important;
+}
+
+.Profile img {
+    margin-right: 1rem;
+}
+
+.UserCard {
+    display: flex;
+    padding: 8px;
+    background-color: #145098;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.UserCard p {
+    margin: 0;
+}
+
+.UserCard img {
+    width: 30px;
+    height: 30px;
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+.notifyBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.notify {
+    position: relative;
+    top: 6px;
+    right: 29px;
+    font-size: 8px;
+    color: #fff;
+}
+
+@keyframes animated-border {
+    0% {
+        border-color: #ecaa00;
+    }
+    25% {
+        border-color: #ff5722;
+    }
+    50% {
+        border-color: #4caf50;
+    }
+    75% {
+        border-color: #2196f3;
+    }
+    100% {
+        border-color: #ecaa00;
+    }
+}
+
+.topup {
+    background-color: #fff !important;
+    border: 2px solid #ecaa00;
+    color: #ecaa00;
+    animation: animated-border 3s linear infinite;
+    transition: color 0.3s;
+    border-radius: 8px; /* Optional for rounded corners */
+    padding: 10px 20px; /* Adjust for better spacing */
+    display: inline-block;
+    cursor: pointer; /* Makes it look clickable */
+}
+
+.topup:hover {
+    color: #fff;
+    background-color: #ecaa00 !important;
+    border: none !important;
+}
+
+@keyframes bell-shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(-15deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.notifyBox {
+  position: relative;
+  display: inline-block;
+}
+
+.notifyBox img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  animation: none; /* Default: no animation */
+}
+
+.notifyBox.new img {
+  animation: bell-shake 0.5s ease-in-out infinite; /* Shake effect on new notification */
+}
+
+.notify {
+  position: absolute;
+  top: -2px;
+  right: 20px;
+  background-color: red;
+  color: white;
+  font-size: 8px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}

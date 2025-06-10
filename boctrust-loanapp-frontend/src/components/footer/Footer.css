@@ -1,0 +1,56 @@
+.FooterTop {
+    color: #fff;
+    background-color: #272f35;
+    padding: 60px; 
+    letter-spacing: 1px;
+    /* padding-left: 198px !important; */
+}
+
+ul {
+    list-style: none;
+}
+
+.Link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-left: -28px;
+}
+
+.Link:hover {
+    color: #999898;
+    text-decoration: none;
+}
+
+.CompanyLinks {
+    padding-left: 160px;
+}
+
+.FooterTop h6 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.FooterTop p {
+    font-size: 12px;
+}
+
+.FooterBottom {
+    padding: 40px 0px 20px 0px;
+    text-align: center;
+    background-color: #191d20;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.SocialContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.SocialMedia {
+    margin: 0px 10px;
+}

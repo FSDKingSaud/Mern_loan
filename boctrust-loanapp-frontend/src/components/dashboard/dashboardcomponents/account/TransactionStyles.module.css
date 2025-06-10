@@ -1,0 +1,43 @@
+.modal__body .modal__topSection {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+}
+
+.modal__body .modal__topSection > div:first-of-type h5 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+}
+
+.modal__body .modal__topSection > div:first-of-type span {
+  font-weight: 300;
+  color: gray;
+}
+
+.modal__body .more__details {
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 0.8rem;
+  padding: 1rem;
+  display: grid;
+  gap: .6rem;
+}
+
+.modal__body .more__details div{
+    display: grid;
+    gap: .4rem;
+}
+
+.modal__body .more__details div h6 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 0.6rem;
+}
+
+.modal__body .more__details div p{
+    font-weight: 300;
+    color: gray;
+    font-size: 0.9rem;
+    margin-bottom: 0 !important;
+}

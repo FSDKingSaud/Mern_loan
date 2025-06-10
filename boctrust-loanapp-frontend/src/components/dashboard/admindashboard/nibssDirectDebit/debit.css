@@ -1,0 +1,77 @@
+.actionBtn {
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 80px;
+}
+
+.section__div {
+  margin: 2rem 0;
+  display: grid;
+  gap: 1rem;
+}
+.section__div .detail__line {
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+}
+
+.section__div .sub__section {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.section__div .detail__line .emp {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.direct__debit {
+  display: grid;
+  gap: 1.5rem;
+}
+.direct__debit .FieldGroup {
+  margin: 0;
+}
+.direct__debit {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.balanceEnquiry__wrapper {
+  display: grid;
+  gap: 1.3rem;
+}
+
+.balanceEnquiry__wrapper .row__line {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.balanceEnquiry__wrapper .sec__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.balanceEnquiry__wrapper .sec__item h4,
+.direct__debit .FieldGroup label {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.balanceEnquiry__wrapper .sec__item h2 {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .balanceEnquiry__wrapper .row__line {
+    grid-template-columns: 1fr;
+  }
+}

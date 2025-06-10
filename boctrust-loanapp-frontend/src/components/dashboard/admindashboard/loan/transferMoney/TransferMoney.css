@@ -1,0 +1,38 @@
+.transfer__container {
+  position: relative;
+  padding: 1rem 0;
+}
+
+.transfer__container .close-btn {
+  position: absolute;
+  top: 0%;
+  right: 5px;
+}
+
+.transfer__container .form__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.transfer__container .form__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.transfer__container .gold__gradientBtn {
+  height: 50px;
+ 
+}
+
+.transfer__container .credit_accountName {
+  font-size: 10px;
+  color: green;
+}
+
+@media screen and (max-width: 600px) {
+  .transfer__container .form__row {
+    grid-template-columns: 1fr;
+  }
+}

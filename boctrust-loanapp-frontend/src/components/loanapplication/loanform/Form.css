@@ -1,0 +1,299 @@
+.FormContainer {
+  background-image: url("../../../assets/images/formbg1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 90px 150px;
+}
+
+.hLine {
+  margin-top: 14px;
+}
+.Step {
+  padding-top: 8rem;
+  padding-left: 4rem;
+}
+
+.Step img {
+  width: 100%;
+  height: 400px;
+}
+
+.FormInputBox {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 28px;
+  padding: 28px 40px;
+  border-radius: 28px;
+}
+
+input,
+select,
+.LoanCal {
+  font-size: 1rem;
+  padding: 8px 38px;
+  margin: 12px 0;
+  border-radius: 8px;
+  border: none;
+  background-color: #fff;
+}
+
+.TextInput,
+.SelectInput {
+  width: 100%;
+}
+.NairaI {
+  position: relative;
+  top: 108px;
+  left: 8px;
+  width: 25px;
+}
+
+.CalNaira img {
+  width: 30px !important;
+  margin-bottom: 10px !important;
+  padding-right: 4px;
+}
+
+.FinNaira {
+  top: 135px;
+}
+
+label {
+  margin-top: 28px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.dsa__form label{
+  margin-top: 0 !important;
+}
+
+.BvnMsg {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #145088;
+}
+
+.Error {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-top: 18px;
+}
+
+.LoanCal {
+  padding-bottom: 38px;
+}
+.LoanCal h4 {
+  padding-left: 48px;
+  font-size: 2rem;
+  font-weight: 900 !important;
+}
+
+.LoanCal h4 > span {
+  font-size: 1.3rem;
+  color: #145088;
+}
+
+.CheckboxContainer,
+.CheckboxGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.CheckboxGroup input {
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
+}
+
+.CheckInput {
+  margin-top: 18px;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.InputRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+.InputRow > div {
+  width: 100%;
+}
+
+.Space {
+  width: 78px !important;
+}
+
+.RadioRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.RadioField {
+  margin-right: 28px;
+  margin-top: -38px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.RadioField label {
+  margin-right: 8px;
+}
+
+.DeductionFrom label {
+  margin-right: 12px;
+  margin-top: -18px;
+}
+
+.UploadFile {
+  background-color: #145088;
+  color: #fff;
+  padding: 26px 28px;
+  width: 170px !important;
+  min-width: 30% !important;
+  margin-left: 28px;
+  font-size: 1.1rem;
+}
+
+.UploadFile::-webkit-file-upload-button {
+  display: none;
+}
+
+.Signature,
+.FileUploadBox {
+  display: flex;
+
+}
+
+.Signature {
+  flex-direction: column;
+}
+.Signature h3{
+ width: 100%;
+}
+
+.ButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 28px 0;
+  margin: 0 auto;
+}
+
+.BtnAction {
+  min-width: 160px !important;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 8px 38px;
+  color: #fff;
+  border: none;
+  border-radius: 26px;
+  cursor: pointer;
+}
+
+.BtnCreate {
+  margin: 0;
+}
+
+.BtnPrimary {
+  background-color: #145088;
+}
+
+.BtnPrimary:hover {
+  background-color: #0e3a5b;
+}
+
+.BtnSecondary {
+  background-color: #ecaa00;
+}
+
+.btnDisabled {
+  background-color: #cccccc;
+  cursor: none;
+}
+
+.BtnNoAction {
+  background-color: #fff;
+  cursor: help;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 38px;
+  border: none;
+  border-radius: 26px;
+  color: lightgray;
+}
+
+.BtnSecondary:hover {
+  background-color: #d49900;
+}
+
+.SelfiCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding: 28px 0;
+}
+
+/* confirmation style */
+.ProceedBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.SignUpContainer {
+  background-image: url("../../../assets/images/signupbg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5rem 10rem;
+}
+
+.SignUpInner {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 2rem;
+  border-radius: 18px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.RecaptchaBox {
+  margin-top: 2rem;
+}
+
+.RecaptchaBadge {
+  background-color: #145088;
+  /* padding: 8px */
+}
+
+@media screen and (max-width: 600px) {
+  .ButtonContainer {
+    padding: 18px 0;
+  }
+  .BtnAction {
+    min-width: fit-content !important;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px 18px;
+    margin: 0 0px;
+  }
+  .BtnNoAction {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 28px;
+    border-radius: 26px;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+}

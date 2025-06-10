@@ -1,0 +1,10 @@
+$primary-color : #145088;
+$secondary-color : #ecaa00;
+
+// export the variables
+:export {
+  primary-color: $primary-color;
+  secondary-color: $secondary-color;
+}
+
+// Then in your component, you can import the variables and use them in your styles

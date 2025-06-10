@@ -1,0 +1,108 @@
+.MainBox {
+  margin: 1rem 4rem 4rem 0;
+}
+
+.AddBtn {
+  display: flex;
+  justify-content: flex-end;
+
+  width: 100%;
+}
+
+.AddBtn span {
+  font-size: 1.5rem;
+}
+
+.SearchBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  background-color: #d9d9d9;
+}
+
+.FormGroup input {
+  width: 70%;
+  height: 40px;
+  border: none;
+}
+
+input:active {
+  border: none !important;
+}
+
+.FormGroup label {
+  margin-right: 8px;
+  color: #145098;
+}
+
+.FormGroup img {
+  position: relative;
+  right: 2.5rem;
+}
+
+#action {
+  background-color: #ecaa00;
+  color: #fff;
+  font-size: 16px;
+  padding: 0.5rem;
+  margin-top: -0.1rem;
+  border: none;
+  width: 100px;
+}
+
+.CustomerImg {
+  width: 40px;
+  height: 40px;
+}
+
+.SubItem {
+  display: flex;
+  justify-content: end;
+}
+.SubItem ul {
+  padding: 0.5rem !important;
+  width: 80%;
+  font-size: 0.78rem;
+}
+
+.BtnRow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+#MethodLogo {
+  width: 90%;
+}
+
+.new__roleForm label {
+  margin-top: 0 !important;
+}
+.new__roleForm button {
+  width: 200px !important;
+}
+
+/* For Book Loan Page */
+.bookloan__container td > * {
+  margin: auto 0;
+}
+
+.mandateRule__containerList {
+  margin-top: 4rem;
+}
+
+.mandateRule__containerList > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.DescriptionJob {
+  display: grid;
+}
+.DescriptionJob .FieldGroup {
+  margin: 0 !important;
+  gap: 1rem;
+}

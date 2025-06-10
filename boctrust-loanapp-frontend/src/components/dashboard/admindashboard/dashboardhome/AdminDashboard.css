@@ -1,0 +1,72 @@
+.TopCard {
+  display: flex;
+  justify-content: center;
+}
+
+.Title {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.CardIcon {
+  margin: 1.2rem 0;
+}
+
+.Spacer {
+  width: 4rem;
+}
+
+.Stat {
+  padding: 1rem 2rem;
+  background-color: #f5f6f7;
+  border-radius: 1rem;
+  margin-right: 4rem !important;
+  margin-bottom: 2rem;
+}
+
+.InlineCard {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  gap: 1rem;
+}
+.InlineCard.collections {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (max-width: 1200px) {
+  .InlineCard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .InlineCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .InlineCard.collections {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .Stat {
+    padding: 1rem 0;
+  }
+
+  .Spacer {
+    width: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .InlineCard,
+  .InlineCard.collections {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

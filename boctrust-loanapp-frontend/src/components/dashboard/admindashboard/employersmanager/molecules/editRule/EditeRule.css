@@ -1,0 +1,11 @@
+.edit__mandateRuleContainer {
+    position: relative;
+    padding: 1rem 0;
+}
+
+.edit__mandateRuleContainer .close-btn {
+    position: absolute;
+    top: 0%;
+    right: 5px;
+  }
+  

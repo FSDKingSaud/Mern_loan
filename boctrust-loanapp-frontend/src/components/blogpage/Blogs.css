@@ -1,0 +1,41 @@
+.BlogSidebar {
+    padding: 28px;
+    border-left: 1px solid #d1d1d1;
+}
+
+/* single blog page */
+.SingleBlog {
+    /* position: relative; */
+    margin-top: 98px !important;
+    padding-bottom: 38px;
+    background-color: #fff;
+}
+
+.BlogDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 28px;
+}
+
+.BlogDetails > img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.TagsContainer {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-top: 14px;
+}
+
+.TagsContainer > div {
+    margin-left: 14px;
+    margin-bottom: 16px;
+    padding: 8px 18px;
+    font-size: 18px;
+
+}

@@ -1,0 +1,251 @@
+
+.DashboardContainer {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+
+
+.NavIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-top-right-radius: 36px;
+  border-bottom-right-radius: 36px;
+  background-color: #145098;
+  color: #fff;
+  width: 3rem;
+  margin-left: -5px;
+  padding-top: 2rem;
+  padding-bottom: 9rem;
+  cursor: pointer;
+}
+
+.MobileNav {
+  display: none;
+}
+
+.FixSideNav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.BLogo {
+  border-radius: 50%;
+  padding: 6px;
+  background-color: #fff;
+}
+
+.SBLogo img {
+  width: 22px;
+  height: 16px;
+}
+
+.SideMain {
+  width: 12.5rem;
+  padding: 16px 0 18rem 8px;
+  align-items: flex-start !important;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.SideMain a {
+  color: inherit;
+}
+
+.SideMain .link__wrap {
+  width: 100%;
+}
+
+.SideMain .link__wrap.section__active > .IconBox,
+.SideMain .link__wrap.section__active > .SubItem ul,
+.SideMain .link__wrap  .IconBox:hover {
+  background-color: #103e75;
+}
+
+.SideMain .link__wrap > .IconBox {
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+
+.SideMain .link__wrap.section__active > .SubItem ul {
+  border-bottom-left-radius: 1rem;
+}
+
+.IconBox {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.8rem 0.5rem 0.8rem  1rem ;
+}
+
+.SubItem a {
+  border-left: 2px solid transparent;
+  padding: .2rem .4rem;
+  display: flex;
+}
+
+.SubItem a.link_active,
+.SubItem a:hover {
+  border-color: #fff !important;
+}
+
+.IconBox img {
+  width: 24px;
+  height: 24px;
+}
+
+.IconBox p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.BrandCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.BrandCon p {
+  margin-top: 0.3rem;
+  margin-left: 8px;
+}
+
+.LgLogo {
+  border-radius: 50%;
+  padding: 8px;
+  background-color: #fff;
+}
+
+.LgLogo img {
+  width: 38px;
+  height: 38px;
+}
+
+.SideNavIcon {
+  width: 40px !important;
+}
+
+/* figcard */
+.FigNum {
+  font-size: 1.8rem;
+  font-weight: 800;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.TopCard {
+  margin: 48px 0;
+  /* padding: 0 78px 0 28px; */
+}
+
+.YellowCard {
+  background: #ecaa00 !important;
+  padding: 14px !important;
+  height: 100%;
+}
+
+#CardText {
+  justify-content: left;
+  font-size: 14px;
+}
+
+.YellowCard #CardText {
+  display: grid;
+  gap: 1rem;
+}
+
+#CardText p {
+  margin: 0;
+  padding: 0;
+}
+
+#CardText .recentTrscAmt.credit {
+  color: #08519a;
+}
+
+#CardText .recentTrscAmt.debit {
+  color: #dc2626;
+}
+
+#CardText > div:first-of-type > p {
+  color: #e2e8f0;
+  text-align: center;
+}
+
+#CardText b {
+  text-transform: uppercase;
+}
+
+.CustomeThead {
+  background-color: #ecaa00;
+  height: 3rem;
+  padding-right: 12px;
+}
+
+.CustomTableHead {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 900;
+  font-size: 1.2rem;
+  padding: 0 12px;
+  padding-right: 38px;
+}
+
+.CustomerImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#PrevBtn {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+#NextBtn {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+#PrevBtn:hover,
+#NextBtn:hover {
+  background-color: #094379 !important;
+  transform: scale(1.1);
+}
+.action {
+  background-color: #ecaa00;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font-size: 1rem;
+  margin: 0 !important;
+}
+
+.loans__tableContainer img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+#topUpCta {
+  text-align: center !important;
+  margin-top: 18px !important;
+  cursor: pointer;
+
+}
+
+@media screen and (max-width: 1024px) {
+  .MobileNav {
+    display: block;
+  }
+
+  .DesktopNav {
+    display: none;
+  }
+}

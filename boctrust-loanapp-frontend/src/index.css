@@ -1,0 +1,663 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  font-family: open-sans, sans-serif;
+  line-height: 1.5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0 auto;
+  min-height: 100vh;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+img {
+  object-fit: contain;
+}
+
+button:disabled {
+  color: gray !important;
+  cursor: not-allowed;
+}
+
+/* typography */
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.smallText {
+  font-size: 0.8rem !important;
+}
+.mediumText {
+  font-size: 1rem !important;
+}
+
+.table > :not(caption) > * > * {
+  padding: 1rem 0.5rem !important;
+}
+
+.carousel {
+  top: 6px !important;
+  margin-top: 0 !important;
+}
+
+.navbar-collapse.collapse {
+  z-index: 50;
+  background-color: #145088 !important;
+  padding-left: 1rem;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  margin-top: 0 !important;
+  max-width: 100% !important;
+}
+.badge_pending,
+.badge_success,
+.badge_info,
+.badge_error {
+  padding: 8px;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.badge_success {
+  color: rgb(7, 130, 89);
+  background-color: rgb(209 250 229);
+}
+.badge_info {
+  color: #0284c7;
+  background-color: #e0f2fe;
+}
+.badge_error {
+  color: #e11d48;
+  background-color: #fff1f2;
+}
+
+.badge_pending {
+  background: #fde68a;
+  color: #d97706;
+}
+
+.error__msg {
+  font-size: 12px;
+  color: #f43f5e;
+  height: 13px;
+}
+.info__msg {
+  font-size: 12px;
+  color: #047857;
+  height: 13px;
+}
+.loading__msg {
+  font-size: 12px;
+  color: #bf9d09;
+  height: 13px;
+}
+
+.RBox tr th,
+.ListSec tr th,
+.ListSec tr td {
+  font-size: 14px;
+}
+
+.PCont {
+  display: grid;
+  gap: 2rem;
+}
+
+.gold__gradientBtn {
+  display: grid;
+  place-content: center;
+  background: #ea8209;
+  border: 0;
+  border-radius: 2rem;
+  color: white;
+  background: linear-gradient(0deg, #ea8209, #f4d2a2);
+}
+
+.bvnFirstStep__info > span {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.bvnInUse__wrapper {
+  margin: 2rem 0;
+}
+
+.bvnInUse__wrapper > div:first-child {
+  background-color: #145088;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 0.7rem;
+  font-weight: 700;
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+}
+.bvnInUse__wrapper .chb__label {
+  margin-top: 0px !important;
+}
+
+.w-full {
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .DashboardContainer {
+    padding: 0 !important;
+    display: flex;
+  }
+
+  .RBox tr th,
+  .RBox tr td,
+  .ListSec tr th,
+  .ListSec tr td {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Welcome {
+    display: none;
+  }
+
+  .CallUs {
+    font-size: 8px;
+  }
+
+  /* Home page */
+  .OverviewContainer {
+    width: 80% !important;
+    margin: 0 auto;
+    padding: 0 !important;
+  }
+
+  /* footer section */
+  .FooterTop {
+    padding-left: 0px !important;
+    padding: 38px !important;
+  }
+
+  .Link {
+    display: none;
+  }
+
+  /* from product page */
+  .Category {
+    margin-top: 18px;
+    min-width: 80%;
+  }
+  .DetailsCard {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* Search Page */
+  .SearchContainer {
+    width: 90% !important;
+  }
+
+  .CardContainer {
+    margin-top: 5px !important;
+  }
+
+  /* loan form mobile */
+  .TopSection {
+    width: 100%;
+    top: 28px;
+    left: 0;
+    padding: 12px;
+  }
+
+  .TopText {
+    width: 100%;
+  }
+
+  .HeroCard {
+    width: 100%;
+  }
+
+  .NairaIcon {
+    top: 34px;
+    right: 90px;
+  }
+
+  #careertype {
+    width: 80% !important;
+  }
+
+  .FinNaira2 {
+    top: 108px !important;
+  }
+
+  .ActionBtn {
+    margin-bottom: 14px !important;
+    margin-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .BtnAction {
+    min-width: 100px !important;
+  }
+
+  .CtaText {
+    padding: 18px;
+    font-size: 2rem;
+  }
+
+  .BocTrustMsg {
+    padding: 12px;
+  }
+
+  .Testimonial {
+    padding: 22px !important;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+  }
+
+  .TestimonialCard {
+    margin-bottom: 16px !important;
+  }
+
+  .ProfileCard {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .EmailCard {
+    width: 90% !important;
+    height: 500px !important;
+    padding: 0 18px !important;
+    text-align: center;
+  }
+
+  .EmailCard input {
+    width: 100%;
+    margin-bottom: 32px;
+    font-size: 18px !important;
+  }
+
+  /* loan form mobile */
+  .FormContainer {
+    padding: 38px 18px !important;
+    /* margin-top: 68px; */
+  }
+
+  .Step {
+    padding: 28px 18px;
+  }
+
+  .FormInputBox {
+    padding: 12px;
+    width: 100%;
+  }
+
+  .InputRow {
+    flex-direction: column;
+  }
+
+  .Lga {
+    width: 100% !important;
+  }
+
+  /* create account mobile */
+  .SignUpContainer {
+    padding: 22px 0;
+  }
+
+  /* dashboar section */
+
+  .Inline {
+    display: none;
+  }
+
+  .CardSpace {
+    height: 18px;
+  }
+
+  /* add space to main dashboard component */
+  .DashboardHome {
+    padding-right: 0 !important;
+    margin-left: 0.8rem;
+  }
+
+  /* dashboard home card */
+  .TopCard {
+    padding: 0 !important;
+    margin-right: 18px;
+  }
+  .MobCard {
+    /* width: 150px !important;
+    height: 150px !important; */
+    margin: 8px !important;
+    font-size: 13px !important;
+  }
+  .YellowCard {
+    height: 100%;
+  }
+
+  .MLoan {
+    padding-left: 4rem !important;
+    overflow-x: auto;
+  }
+
+  .DashHeader {
+    min-height: 66px;
+    height: fit-content !important;
+    /* margin: 2rem 0 -4rem -0.5rem !important; */
+    font-size: 1.1rem !important;
+    padding: 0.5rem;
+  }
+
+  .DTable {
+    margin: 8px !important;
+  }
+  .RTable {
+    margin-top: 4rem !important;
+  }
+
+  /* input field */
+  .SecCon {
+    padding: 0 0 0 4rem !important;
+  }
+  .ABCon {
+    display: none !important;
+  }
+  .FieldRow {
+    flex-direction: column;
+    padding: 4rem !important;
+    margin-bottom: -10rem !important;
+  }
+
+  .loan_calculator .FieldRow,
+  .apply__forLoan .FieldRow {
+    padding: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+
+  /* .FieldGroup input,
+  select {
+    width: 300px !important;
+  } */
+  .BtnContainer {
+    margin-top: 4rem !important;
+  }
+
+  /* profile page */
+  .PCon {
+    padding: 0 1rem 0 3rem !important;
+    margin-right: 0 !important;
+  }
+  .ProfileCon {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .TReport {
+    padding-top: 4rem !important;
+  }
+
+  /* admin mobile */
+  .Stat {
+    width: 100% !important;
+    margin: 8px !important;
+    /* padding: 18px; */
+  }
+
+  .StatCard p {
+    font-size: 0.7rem !important;
+  }
+  .ChartBar {
+    margin-top: 6rem !important;
+    /* display: none; */
+    overflow-x: auto;
+  }
+  .ChartBar .recharts-wrapper {
+    width: fit-content !important;
+  }
+
+  .TransContainer {
+    width: 100% !important;
+    background-color: #fff !important;
+    padding: 0.2rem;
+  }
+  .ReportCon {
+    margin-right: 0 !important;
+  }
+  .LDBox {
+    margin-top: 5rem !important;
+  }
+  .MainBox {
+    margin: 0;
+  }
+  .SearchBar {
+    flex-direction: column !important;
+    padding-bottom: 0.7rem !important;
+  }
+  .ListSec {
+    margin-top: 5rem;
+    padding: 0 !important;
+  }
+  .SBox {
+    padding-left: 3.4rem;
+  }
+  .SBox input {
+    width: 85% !important;
+    margin-left: 1rem !important;
+  }
+  .Content {
+    width: 300px !important;
+  }
+  .action {
+    width: 90px !important;
+  }
+  .FieldRow {
+    margin-top: 0;
+  }
+  .IAddress {
+    margin: 4rem 0 -5rem -1rem !important;
+    width: 60% !important;
+  }
+  .IUpload {
+    padding: 0 0 0 6rem !important;
+    width: 100%;
+  }
+  .CRequest,
+  .DCard {
+    margin: 0 !important;
+  }
+
+  .VBox {
+    flex-direction: column !important;
+    /* margin-bottom: -4rem !important; */
+  }
+  .RBox {
+    min-width: 800px;
+  }
+  .PCont {
+    padding: 1rem !important;
+  }
+  .RTitle {
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+  }
+  .RowSection {
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+  .DetailsCon {
+    margin-top: 2rem !important;
+    padding: 6px !important;
+  }
+  .RadioCon {
+    width: 200px !important;
+    margin-left: -6rem !important;
+  }
+
+  .KSection {
+    margin: 0 !important;
+  }
+  .OfficialIdCard,
+  .FaceCapture {
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 1rem !important;
+    margin-top: 5rem !important;
+    margin-left: 0 !important;
+  }
+  .MatchCon {
+    margin-left: 0 !important;
+  }
+  .TimeStamp {
+    left: 0 !important;
+    margin-left: 0 !important;
+    width: 95% !important;
+  }
+  .FormatBtn {
+    flex-direction: column !important;
+    margin-bottom: 1rem;
+  }
+  .Signature {
+    margin-left: 3.3rem !important;
+  }
+  .Capture,
+  .ICard {
+    margin-top: -5rem !important;
+  }
+
+  .asBox {
+    flex-direction: column;
+  }
+
+  /* overview card */
+  .overCard {
+    width: 90% !important;
+    margin: 8px !important;
+  }
+
+  /* search by box */
+  .searchByBox {
+    width: 90% !important;
+    margin-top: 4rem !important;
+    margin-bottom: -5rem !important;
+  }
+
+  .searchByBox input {
+    width: 100% !important;
+  }
+
+  .range {
+    flex-direction: column !important;
+    width: 90% !important;
+  }
+
+  .range input {
+    width: 100% !important;
+  }
+
+  .asBox {
+    flex-direction: row;
+  }
+
+  .Topnav {
+    padding: 0 !important;
+    padding-bottom: 16px !important;
+    padding-right: 14px !important;
+  }
+  .Hero {
+    display: none !important;
+  }
+
+  /* my loan  */
+  .ResultContainer {
+    margin-top: 6rem !important;
+    margin-left: -1rem !important;
+    margin-bottom: -4rem !important;
+  }
+
+  .bSection {
+    margin-top: 6rem !important;
+  }
+  .loan__statement .bSection {
+    margin-top: 6rem !important;
+  }
+
+  .appForm {
+    margin-top: 3rem !important;
+  }
+
+  .mGroup {
+    margin-left: -2rem !important;
+    margin-bottom: -3.5rem !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .TopCard {
+    margin-right: 0;
+  }
+}
+
+@media print {
+  div {
+    page-break-after: auto; /* Add page breaks if necessary */
+  }
+}
+
+.textLight12 {
+  font-size: 0.9rem;
+}
+
+.textMedium14,
+.textSemibold14,
+.textBold14,
+.textLight14,
+.textRegular14 {
+  font-family: var(--manrope-font);
+  font-size: 1.2rem;
+}
+
+.textMedium14,
+.textMedium12 {
+  font-weight: 500;
+}
+
+.text20 {
+  font-size: 2rem;
+}

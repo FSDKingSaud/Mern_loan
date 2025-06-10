@@ -1,0 +1,120 @@
+.TopContainer {
+  width: 100%;
+  background-color: #fff !important;
+  margin-top: -10% !important;
+  padding: 18px;
+  border-radius: 16px;
+}
+
+.TabContainer {
+    margin: 38px 0;
+}
+
+li {
+  margin-bottom: 6px;
+}
+.Orientation ul > li {
+  list-style: disc;
+}
+
+
+.Wrap {
+  display: flex;
+
+  flex-wrap: right;
+  margin: 28px;
+}
+
+.Text {
+  margin: 0 16px;
+}
+
+.VacancyList {
+  display: flex;
+  justify-content: center;
+}
+
+.JobDate {
+  padding: 8px;
+  height: 25px;
+  font-size: 12px;
+  font-weight: 600;
+ 
+}
+
+.ImgCard {
+  width: 60%;
+  height: 200px;
+  border-radius: 16px;
+}
+
+/* model box */
+.BtnApply {
+  background-color: #ecaa00;
+  border: none;
+}
+
+.BtnApply:hover {
+  background-color: #ce9300;
+  border: none;
+}
+
+.BtnClose {
+  background-color: gray;
+  border: none;
+}
+
+.BtnClose:hover {
+  background-color: #a3a3a3;
+  border: none;
+}
+
+/* src/components/JobApplicationForm.css */
+.job__form {
+  max-width: 600px;
+  margin: 28px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.job__form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.job__form input[type="text"],
+.job__form input[type="email"],
+.job__form input[type="tel"],
+.job__form textarea,
+.job__form input[type="file"] {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.job__form button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.job__form button:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  color: #0056b3;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.3rem;
+}

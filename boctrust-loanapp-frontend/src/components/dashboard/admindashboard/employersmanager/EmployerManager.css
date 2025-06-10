@@ -1,0 +1,16 @@
+.edit__employerWrapper{
+    display: grid;
+    gap: 1rem;
+
+    padding: 1.4rem 0;
+}
+
+.edit__employerWrapper .FieldRow{
+    gap: 1rem;
+}
+
+.edit__employerWrapper .FieldGroup{
+    margin: 0 !important;
+}
+
+
